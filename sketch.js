@@ -110,7 +110,7 @@ function setup() {
   createCanvas(windowWidth, windowHeight);
   h = windowHeight
   w = h*.7496
-  len = h/20
+  len = h/10
   room.resize(w, h)
   pot.resize(w/4, h/6)
   can.resize(w/3, h/4)
