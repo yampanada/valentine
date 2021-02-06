@@ -67,7 +67,6 @@ function gen() {
 }
 
 function turtle() {
-  //background(51);
   push();
   stroke(0, 255, 100, 100);
   resetMatrix();
@@ -108,7 +107,7 @@ function turtle() {
 
 
 function setup() {
-  len = height/2
+  len = h/2
   
   createCanvas(windowWidth, windowHeight);
   h = windowHeight
