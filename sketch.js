@@ -117,7 +117,7 @@ function setup() {
   pot.resize(w/4, h/6)
   can.resize(w/3, h/4)
   env.resize(w/4, h/6)
-  note.resize(w, w)
+  note.resize(.8*w, .8*w)
   canX = width/2 + w/5.5
   canY = height/1.73
   dayLight = sin(hour()/23 * PI)
