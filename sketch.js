@@ -107,11 +107,10 @@ function turtle() {
 
 
 function setup() {
-  len = h/2
-  
   createCanvas(windowWidth, windowHeight);
   h = windowHeight
   w = h*.7496
+  len = h/2
   room.resize(w, h)
   pot.resize(w/4, h/6)
   can.resize(w/3, h/4)
