@@ -34,15 +34,15 @@ function preload() {
     notes.push(i)
   }
   let noteNum = random(notes).toString()
-  note = loadImage('Library/Notes/' + noteNum + '.jpg')
+  note = loadImage('Library/Notes/' + noteNum + '.JPG')
 
   let envNum = random([1, 2, 3]).toString()
-  env = loadImage('Library/Envelopes/' + envNum + '.png')
+  env = loadImage('Library/Envelopes/' + envNum + '.PNG')
 
 
   room = loadImage('Library/room.PNG')
-  pot = loadImage('Library/pot.png')
-  can = loadImage('Library/can.png')
+  pot = loadImage('Library/pot.PNG')
+  can = loadImage('Library/can.PNG')
 
 }
 
