@@ -70,7 +70,7 @@ function turtle() {
   push();
   stroke(0, 255, 100, 100);
   resetMatrix();
-  translate(width/2 + w/16, height/2 + h/12)
+  translate(width/2 + w/16, h/2 + h/12)
   for (let i=0; i<sentence.length; i++) {
    let current = sentence[i];
    if (current == "F") {
