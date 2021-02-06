@@ -132,7 +132,7 @@ function touchStarted() {
   if (plantIt == 5) {
     fill(100, 25, 50)
     rect(0, 0, width, height)
-    image(note, width/2 - w/2, 0)
+    image(note, width/2 - w*.4, 0)
   }
 
 }
