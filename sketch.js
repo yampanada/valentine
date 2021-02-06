@@ -119,7 +119,7 @@ function setup() {
   env.resize(w/4, h/6)
   note.resize(.8*w, .8*w)
   canX = width/2 + w/5.5
-  canY = height/1.73
+  canY = h/1.73
   dayLight = sin(hour()/23 * PI)
   flowerCol = createVector(random(255), random(255), random(255))
   turtle();
@@ -144,7 +144,7 @@ function touchEnded() {
 function draw() {
   background(100)
   image(room, width/2 - w/2, 0)
-  image(pot, width/2 - w/15, height/2 + height/30)
+  image(pot, width/2 - w/15, h/2 + h/30)
 
   //WINDOW
   push();
