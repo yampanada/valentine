@@ -40,7 +40,7 @@ function preload() {
   env = loadImage('Library/Envelopes/' + envNum + '.png')
 
 
-  room = loadImage('Library/room.png')
+  room = loadImage('Library/room.PNG')
   pot = loadImage('Library/pot.png')
   can = loadImage('Library/can.png')
 
