@@ -5,7 +5,7 @@ let pot;
 let can;
 let note;
 let env;
-let noteTotal = 5
+let noteTotal = 7
 let notes = []
 
 
